@@ -1,0 +1,35 @@
+{
+  "name": "itrm-ailib",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && tsc --skipLibCheck",
+    "publish-lib": "npm run build && npm publish",
+    "publish-beta": "npm run build && npm publish --tag beta",
+    "publish-dryrun": "npm run build && npm publish --dry-run",
+    "link": "npm run build && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilourd/ailib-js.git"
+  },
+  "keywords": [],
+  "author": "itrmachines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilourd/ailib-js/issues"
+  },
+  "homepage": "https://github.com/camilourd/ailib-js#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4"
+  }
+}
