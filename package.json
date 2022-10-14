@@ -1,6 +1,6 @@
 {
-  "name": "itrm-ailib",
-  "version": "1.0.2",
+  "name": "ailib-js",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
