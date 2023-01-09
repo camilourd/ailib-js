@@ -6,6 +6,6 @@ export class BinaryStep implements ActivationFunction {
 	}
 
 	public derivate(x: number): number {
-		return x == 0 ? 1 : 0;
+		return 0;
 	}
 }

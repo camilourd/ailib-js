@@ -23,7 +23,6 @@ export class Scanner {
 	}
 
 	public restart(): void {
-		this.line = "";
 		this.index = 0;
 	}
 }

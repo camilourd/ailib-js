@@ -6,7 +6,6 @@ export class Sigmoid implements ActivationFunction {
 	}
 
 	public derivate(x: number): number {
-		let val = Math.exp(-x);
-		return val / Math.pow(1 + val, 2);
+		return this.activate(x) * (1 - this.activate(x));
 	}
 }

@@ -1,0 +1,1 @@
+{"version":3,"file":"Exponential.js","sourceRoot":"","sources":["../../../src/math/activation_functions/Exponential.ts"],"names":[],"mappings":";;;AAEA,MAAa,WAAW;IAChB,QAAQ,CAAC,CAAS;QACxB,OAAO,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC;IACpB,CAAC;IAEM,QAAQ,CAAC,CAAS;QACxB,OAAO,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC;IACxB,CAAC;CACD;AARD,kCAQC"}
